@@ -54,14 +54,18 @@ export default function Header() {
                         <div>
                           <Menu.Button className="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                             <span className="sr-only">Open user menu</span>
-                            {localStorageData.imageUrl ? <img
+                            {/* {localStorageData.imageUrl ? <img
                               className="h-8 w-8 rounded-full"
                               src={localStorageData.imageUrl}
                               alt="profile"
                             />: <Bars3Icon
                             className="block h-6 w-6"
                             aria-hidden="true"
-                          /> }
+                          /> } */}
+                          <Bars3Icon
+                            className="block h-6 w-6"
+                            aria-hidden="true"
+                          />
                           </Menu.Button>
                         </div>
                         <Transition
@@ -145,14 +149,18 @@ export default function Header() {
                         src={localStorageData.imageUrl}
                         alt="profile"
                       /> */}
-                      {localStorageData.imageUrl ? <img
+                      {/* {localStorageData.imageUrl ? <img
                               className="h-10 w-10 rounded-full"
                               src={localStorageData.imageUrl}
                               alt="profile"
                             />: <Bars3Icon
                             className="block h-6 w-6"
                             aria-hidden="true"
-                          /> }
+                          /> } */}
+                          <Bars3Icon
+                            className="block h-6 w-6"
+                            aria-hidden="true"
+                          />
                     </div>
                     <div className="ml-3">
                       <div className="text-base font-medium leading-none text-white">
