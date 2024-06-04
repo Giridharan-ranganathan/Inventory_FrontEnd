@@ -28,7 +28,7 @@ export default function AddSale({
 
   // POST Data
   const addSale = () => {
-    fetch("http://localhost:4000/api/sales/add", {
+    fetch("https://inventory-backend-2-z7y5.onrender.com/api/sales/add", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

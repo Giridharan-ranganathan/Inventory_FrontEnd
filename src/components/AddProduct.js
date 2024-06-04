@@ -23,7 +23,7 @@ export default function AddProduct({
   };
 
   const addProduct = () => {
-    fetch("http://localhost:4000/api/product/add", {
+    fetch("https://inventory-backend-2-z7y5.onrender.com/api/product/add", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

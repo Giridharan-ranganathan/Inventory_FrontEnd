@@ -41,7 +41,7 @@ function Register() {
     //   })
     //   .catch((err) => console.log(err));
      
-    const response = await axios.post("http://localhost:4000/api/register" , 
+    const response = await axios.post("https://inventory-backend-2-z7y5.onrender.com/api/register" , 
     {
       ...form
     })

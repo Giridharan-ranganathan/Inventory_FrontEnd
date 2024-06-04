@@ -8,7 +8,7 @@ import Layout from "./components/Layout";
 import Inventory from "./pages/Inventory";
 import NoPageFound from "./pages/NoPageFound";
 import AuthContext from "./AuthContext";
-import ProtectedWrapper from "./ProtectedWrapper";
+// import ProtectedWrapper from "./ProtectedWrapper";
 import { useEffect, useState } from "react";
 import Store from "./pages/Store";
 import Sales from "./pages/Sales";
