@@ -24,11 +24,12 @@ function Login() {
         .then((data) => {
           alert("Successfully Login");
           localStorage.setItem("user", JSON.stringify(data));
-          navigate("/");
-          // authContext.signin(data._id, () => {
-          //   alert("innnn");
-          //   navigate("/");
-          // });
+          // navigate("/");
+          authContext.signin(data._id, () => {
+            // alert("innnn");
+            // alert(data._id);
+            navigate("/");
+          });
         })
         .catch((err) => {
           alert("Wrong credentials, Try again")
